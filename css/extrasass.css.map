@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,uBAAY;AAEpB,KAAK;EAEJ,eAAe,EAAE,GAAG",
+"sources": ["extra.scss"],
+"names": [],
+"file": "extrasass.css"
+}

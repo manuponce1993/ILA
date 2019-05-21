@@ -1,0 +1,73 @@
+html, body{
+	height: 100%;
+}
+
+h3.active{
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.1rem solid #64a19d;
+}
+
+ .card_features{
+ 	background-color: rgba(33, 37, 41, 0.9);
+ 	transition: background-color 1000ms ease-in-out;
+ 
+ }
+
+.separador_card{
+	width: 30%;
+	background-color: lightgrey;
+	-webkit-transition: width 1000ms ease-in-out;
+	-moz-transition: width 1000ms ease-in-out;
+	-o-transition: width 1000ms ease-in-out;
+	transition: width 1000ms ease-in-out;	
+}
+
+.card_features:hover{
+	/*background-color: rgba(33, 37, 41,1.9);*/
+	background-color: rgb(14, 14, 15);
+}
+
+.card_features:hover > div > .separador_card {
+ 	width: 80%;
+}
+
+.palabra_clave{
+	-webkit-transition:  color 1000ms ease-in-out;
+	-moz-transition:  color 1000ms ease-in-out;
+	-o-transition:  color 1000ms ease-in-out;
+	transition:  color 1000ms ease-in-out;
+	transition: color 1000ms ease-in-out;
+}
+
+.card_features:hover .palabra_clave {
+ 	color: white;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	height: 500px;
+}
+
+.img-responsive-16by9 {
+    display: block;
+    height: 0;
+    padding-bottom: 55.25%;
+    overflow: hidden;
+}
+
+/*#btn_todos{
+	border-left: 2px solid yellow;
+	padding-left: 2em;
+}*/
+
+/*@media (min-width: 768px) {
+  #projects{
+	height: 107%;
+  }
+}
+
+@media (max-width: 767px) {
+  #projects{
+	height: 95%;
+  }
+}*/
